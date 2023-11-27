@@ -79,4 +79,4 @@ def createkey():
 
 if __name__ == "__main__":
     logging.info("Starting API server...")
-    app.run("0.0.0.0", 5000, debug=True,ssl_context='adhoc')
+    app.run("0.0.0.0", 5000, debug=False,ssl_context='adhoc')

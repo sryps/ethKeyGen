@@ -19,7 +19,6 @@ COPY --chown=0:0 --from=build-env-go /root/validator /usr/local/bin/validator
 COPY ./ /home/eth/
 RUN mkdir -p /home/eth/.eth2validators/prysm-wallet-v2/direct/accounts
 RUN mkdir -p /home/eth/keys/validator_keys
-RUN pip install flask
-RUN pip install requests
+RUN pip install flask cryptography requests
 
 CMD [ "python3", "/home/eth/main.py"]
