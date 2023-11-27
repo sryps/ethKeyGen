@@ -27,7 +27,7 @@ Run your docker image:
 
 TODO:
 - improve better error handling
-- look into generating and signing exit msg
+- look into generating and signing exit msg (validator accounts voluntary-exit --exit-json-output-dir `The output directory to write voluntary exits as individual unencrypted JSON files. If this flag is provided, voluntary exits will be written to the provided directory and will not be broadcasted.` )
 - parameterize vault path
 - improve sanity checks && confirm data is stored in vault before moving on
 - improve logs
