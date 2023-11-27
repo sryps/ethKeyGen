@@ -27,6 +27,7 @@ Run your docker image:
 
 TODO:
 - improve better error handling
+- look into generating and signing exit msg
 - parameterize vault path
 - improve sanity checks && confirm data is stored in vault before moving on
 - improve logs
